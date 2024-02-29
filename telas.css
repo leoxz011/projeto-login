@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) and (max-width:992px){
+
+    main{
+        height: 350px;
+        width: 90vw;
+    }
+    img{
+        height: 100%;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+        width: 40vw;
+    
+    }
+    
+    #imagem{
+        height: 100%;
+        float: left;
+        width: 30vw;
+        
+    }
+    
+    #formulario{
+        width: 50%;
+        float: right;
+        padding-top: 10px;
+        
+    
+    }
+    }
