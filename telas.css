@@ -1,29 +1,76 @@
-@media screen and (min-width: 768px) and (max-width:992px){
+@media screen and (min-width: 768px) and (max-width:992px) {
 
-    main{
+    main {
         height: 350px;
         width: 90vw;
     }
-    img{
+
+    img {
         height: 100%;
         border-bottom-left-radius: 10px;
         border-top-right-radius: 0;
         width: 40vw;
-    
+
     }
-    
-    #imagem{
+
+    #imagem {
         height: 100%;
         float: left;
         width: 30vw;
-        
+
     }
-    
-    #formulario{
+
+    #formulario {
         width: 50%;
         float: right;
         padding-top: 10px;
-        
-    
+
+
     }
+
+    #email {
+        border-bottom: 6px solid rgb(124, 56, 124);
+        border-top: 4px solid rgb(124, 56, 124);
     }
+
+    #senha{
+        border-bottom: 6px solid rgb(124, 56, 124);
+        border-top: 4px solid rgb(124, 56, 124);
+}
+
+
+}
+
+@media screen and (min-width: 992px){
+body{
+    background-image: linear-gradient(to top, rgb(54, 160, 125) ,rgb(124, 56, 124) );
+    background-attachment: fixed;
+}
+
+    main{
+        width: 90vw;
+        height: 400px;
+    }
+
+    #imagem{
+        float: right;
+        height: 100%;
+        width: 50%;
+        background-image: url(imagem.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    img{
+        display: none;
+    }
+
+
+   
+
+    #formulario{
+        width: 45%;
+        padding-top: 30px;
+    }
+}
